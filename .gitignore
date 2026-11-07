@@ -1,0 +1,52 @@
+# Video files (prevent accidental commits of large media)
+*.webm
+*.mp4
+*.mkv
+*.avi
+*.mov
+
+# Logs
+conversion_log.txt
+*.log
+
+# Converted output and test directories
+converted/
+test_videos/
+test_output/
+
+# Python cache & build files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,8 @@
+# Python dependencies for webm-to-mp4-converter
+tqdm>=4.66.0
+
+# NOTE: FFmpeg is a required system-level dependency and cannot be installed via pip.
+# Please install FFmpeg on your operating system:
+#   Windows:  winget install Gyan.FFmpeg   (or choco install ffmpeg)
+#   macOS:    brew install ffmpeg
+#   Linux:    sudo apt install ffmpeg      (Ubuntu/Debian)
